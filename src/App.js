@@ -1,6 +1,15 @@
+import Routes from './routes';
+import { ThemeProvider } from 'styled-components';
+
+import GlobalStyles from './assets/styles/global';
+import defaultTheme from './assets/themes/default';
+
 function App() {
   return (
-    <h1>Meu Portfólio!!!</h1>
+    <ThemeProvider theme={ defaultTheme }>
+      <Routes />
+      <GlobalStyles />
+    </ThemeProvider>
   );
 }
 
