@@ -1,8 +1,6 @@
-import Routes from './routes';
-
 function App() {
   return (
-    <Routes />
+    <h1>Meu Portfólio!!!</h1>
   );
 }
 
