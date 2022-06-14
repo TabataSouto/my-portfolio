@@ -20,7 +20,7 @@ function Header() {
   }, [date])
 
   return (
-    <Styles.Main>
+    <Styles.Header>
       <Styles.Gamers>
         <Styles.ImgIcons>
           <img src={ icons.iconGamerOne } alt="gamer woman" />
@@ -40,7 +40,7 @@ function Header() {
         <img src={ icons.wiFi } alt="" />
         <img src={ icons.iconBattery } alt="" />
       </Styles.Infos>
-    </Styles.Main>
+    </Styles.Header>
   )
 }
 

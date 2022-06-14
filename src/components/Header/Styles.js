@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Main = styled.section`
+const Header = styled.header`
   display: flex;
   justify-content: space-between;
 `
@@ -32,7 +32,7 @@ const ImgIcons = styled.div`
 `
 
 const Styles = {
-  Main,
+  Header,
   ImgIcons,
   Gamers,
   Infos
