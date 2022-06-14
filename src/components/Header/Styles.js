@@ -3,18 +3,11 @@ import styled from 'styled-components';
 const Header = styled.header`
   display: flex;
   justify-content: space-between;
-`
-
-const Gamers = styled.div`
-  align-items: center;
-  display: flex;
-  margin: 1.5cm;
-`
-const Infos = styled.div`
-  align-items: center;
-  display: flex;
-  gap: 20px;
-  margin: 1.5cm;
+  section {
+    align-items: center;
+    display: flex;
+    margin: 1.5cm;
+  }
 `
 
 const ImgIcons = styled.div`
@@ -34,8 +27,6 @@ const ImgIcons = styled.div`
 const Styles = {
   Header,
   ImgIcons,
-  Gamers,
-  Infos
 };
 
 export default Styles;

@@ -21,7 +21,7 @@ function Header() {
 
   return (
     <Styles.Header>
-      <Styles.Gamers>
+      <section>
         <Styles.ImgIcons>
           <img src={ icons.iconGamerOne } alt="gamer woman" />
         </Styles.ImgIcons>
@@ -34,12 +34,12 @@ function Header() {
         <Styles.ImgIcons>
           <img src={ icons.tabata } alt="gamer man" />
         </Styles.ImgIcons>
-      </Styles.Gamers>
-      <Styles.Infos>
+      </section>
+      <section>
         <p>{ date }</p>
         <img src={ icons.wiFi } alt="" />
         <img src={ icons.iconBattery } alt="" />
-      </Styles.Infos>
+      </section>
     </Styles.Header>
   )
 }
