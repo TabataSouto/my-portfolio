@@ -1,5 +1,4 @@
-import iconHome from '../../images/icon-home.png';
-import handIcon from '../../images/hand-icon.png';
+import icons from '../../images';
 import { useHistory } from 'react-router-dom';
 import Styles from './Styles';
 
@@ -16,11 +15,11 @@ function Start() {
     <Styles.Main>
 
       <section>
-        <Styles.ImgHome src={ iconHome } alt="icon game computer"/>
+        <Styles.ImgHome src={ icons.iconHome } alt="icon game computer"/>
       </section>
 
       <Styles.Container onClick={ handleClick }>
-        <img src={ handIcon } alt="Hand icon" />
+        <img src={ icons.iconHand } alt="Hand icon" />
         <p>HOME Menu</p>
       </Styles.Container>
 
