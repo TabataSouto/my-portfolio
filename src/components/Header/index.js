@@ -31,6 +31,9 @@ function Header() {
         <Styles.ImgIcons>
           <img src={ icons.iconGamerTwo } alt="gamer man" />
         </Styles.ImgIcons>
+        <Styles.ImgIcons>
+          <img src={ icons.tabata } alt="gamer man" />
+        </Styles.ImgIcons>
       </Styles.Gamers>
       <Styles.Infos>
         <p>{ date }</p>
