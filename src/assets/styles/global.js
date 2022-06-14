@@ -2,10 +2,11 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 * {
+    color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
   }
   body {
     background-color: ${({ theme }) => theme.backgrounds.backgroundBody};

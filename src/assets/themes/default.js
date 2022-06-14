@@ -2,7 +2,7 @@ const themes = {
   backgrounds: {
     // backgroundBody: '#2D2D2D',
     backgroundBody: '#202020',
-    // backgroundHeader: '#F3F3F3',
+    backgroundIcons: '#4F4F4E',
     // backgroundHeader: '#181718',
   },
   borders: {
