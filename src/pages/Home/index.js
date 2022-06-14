@@ -1,12 +1,16 @@
 // import Styles from './Styles';
 import Header from '../../components/Header';
-import Navigation from '../../components/Navigation';
+import Emphasis from '../../components/Emphasis';
+import Footer from '../../components/Footer';
 
 function Home() {
   return (
     <section>
       <Header />
-      <Navigation />
+      <Emphasis />
+      <Footer
+        buttonA='OK'
+      />
     </section>
   )
 }

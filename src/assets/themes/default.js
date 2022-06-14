@@ -1,12 +1,15 @@
 const themes = {
+  colors: {
+    buttons: '#202020',
+  },
   backgrounds: {
-    // backgroundBody: '#2D2D2D',
     backgroundBody: '#202020',
     backgroundIcons: '#4F4F4E',
-    // backgroundHeader: '#181718',
+    backgroundBattery: '#848484',
+    backgroundBatteryGreen: '#A6D13B'
   },
   borders: {
-    borderHeader: '#848484'
+    borderFooter: '#848484'
   },
   fonts: {
     fontGame: '"Roboto Mono", monospace',

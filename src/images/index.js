@@ -4,6 +4,7 @@ import iconGamerOne from './gamer-1.png';
 import iconGamerTwo from './gamer-2.png';
 import iconHand from './hand-icon.png';
 import iconHome from './icon-home.png';
+import switchProController from './switch-pro-controller.png'
 import tabata from './tabata.jpeg';
 import wiFi from './wi-fi.png';
 
@@ -14,6 +15,7 @@ const icons = {
   iconGamerTwo,
   iconHand,
   iconHome,
+  switchProController,
   tabata,
   wiFi
 }
