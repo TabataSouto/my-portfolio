@@ -1,18 +1,23 @@
+import Styles from './Styles';
+
 import Footer from '../../components/Footer';
-import Description from '../../components/Description'
+import Profile from '../../components/Profile'
 import HeaderAbout from '../../components/HeaderAbout';
 
 function AboutMe() {
   return (
-    <main>
+    <Styles.Main>
       <HeaderAbout />
-      <Description />
+      <Profile />
       <Footer
         buttonX='Home'
+        pathButtonX='/home'
         buttonY='Projetos'
+        pathButtonY='/projects'
         buttonB='Contato'
+        pathButtonB='/contact'
       />
-    </main>
+    </Styles.Main>
   )
 }
 
