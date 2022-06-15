@@ -17,19 +17,20 @@ const Buttons = styled.section`
   align-items: center;
   display: flex;
   margin: 0.3cm 1.5cm;
-  gap: .50px;
-  span {
+  button {
     align-items: center;
     background: white;
+    border: none;
     border-radius: 100%;
     color: ${ ({ theme }) => theme.colors.buttons };
     display: flex;
     justify-content: center;
+    font-size: 17px;
     font-weight: bold;
     margin: 0 0.3cm;
-    padding: 12px;
-    height: 10px;
-    width: 10px;
+    padding: 0px;
+    height: 25px;
+    width: 25px;
   }
 `
 

@@ -1,14 +1,18 @@
 import PropTypes from "prop-types"
-import icons from '../../images';
+import { useHistory } from "react-router-dom";
 
+import icons from '../../images';
 import Styles from './Styles';
 
 function Footer({
   buttonX = null,
   buttonA = null,
   buttonY = null,
-  buttonB = null
+  buttonB = null,
+  path
 }) {
+  const history = useHistory();
+
   return(
     <Styles.Footer>
       <Styles.Controller>
@@ -26,28 +30,48 @@ function Footer({
         {
           buttonX !== null &&
           <>
-            <span>X</span>
+            <button
+              type="button"
+              onClick={ () => history.push(path)}
+            >
+              X
+            </button>
             <p>{ buttonX }</p>
           </>
         }
         { 
           buttonA !== null &&
           <>
-            <span>A</span>
-            <p>{ buttonA}</p>
+            <button
+              type="button"
+              onClick={ () => history.push(path)}
+            >
+              A
+            </button>
+            <p>{ buttonA }</p>
           </>
         }
         {
           buttonY !== null &&
           <>
-            <span>Y</span>
+            <button
+              type="button"
+              onClick={ () => history.push(path)}
+            >
+              X
+            </button>
             <p>{ buttonY }</p>
           </>
         }
         {
           buttonB !== null &&
           <>
-            <span>B</span>
+            <button
+              type="button"
+              onClick={ () => history.push(path)}
+            >
+              X
+            </button>
             <p>{ buttonB }</p>
           </>
         }
@@ -57,8 +81,11 @@ function Footer({
 }
 
 Footer.propTypes = {
-  buttonA: PropTypes.string.isRequired,
-  buttonX: PropTypes.string.isRequired,
+  buttonA: PropTypes.string,
+  buttonB: PropTypes.string,
+  buttonX: PropTypes.string,
+  buttonY: PropTypes.string,
+  path: PropTypes.string,
 }
 
 export default Footer;
