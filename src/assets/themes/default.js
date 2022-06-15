@@ -12,7 +12,8 @@ const themes = {
   },
   borders: {
     borderFooter: '#848484',
-    borderCard:'#79e6f2'
+    borderCard:'#79e6f2',
+    borderProfile: '#4f4f4f'
   },
   fonts: {
     fontGame: '"Roboto Mono", monospace',
