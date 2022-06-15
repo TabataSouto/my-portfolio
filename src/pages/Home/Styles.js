@@ -1,11 +1,14 @@
-// import styled from 'styled-components';
+import styled from 'styled-components';
 
-// const Main = styled.main`
-//   display: flex;
-// `
+const Main = styled.main`
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+`
 
 
-// const Styles = {
-//   Main,
-// }
-// export default Styles;
+const Styles = {
+  Main,
+}
+export default Styles;

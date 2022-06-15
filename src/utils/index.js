@@ -1,5 +1,5 @@
 // pega o horário atual;
-const tick = () => new Date().toLocaleTimeString('pt', { hour12: true });
+const tick = () => new Date().toLocaleTimeString('pt', { hour24: true });
 
 const functions = {
   tick,

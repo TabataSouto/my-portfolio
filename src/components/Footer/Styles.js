@@ -11,13 +11,13 @@ const Controller = styled.section`
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin: 0.3cm 0.7cm;
+  margin: 0.3cm 1.5cm;
 `
 const Buttons = styled.section`
   align-items: center;
   display: flex;
-  margin: 0.3cm 0.7cm;
-  gap: 10px;
+  margin: 0.3cm 1.5cm;
+  gap: .50px;
   span {
     align-items: center;
     background: white;
@@ -26,9 +26,10 @@ const Buttons = styled.section`
     display: flex;
     justify-content: center;
     font-weight: bold;
+    margin: 0 0.3cm;
+    padding: 12px;
     height: 10px;
     width: 10px;
-    padding: 12px;
   }
 `
 

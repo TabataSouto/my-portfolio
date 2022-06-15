@@ -1,6 +1,8 @@
 const themes = {
   colors: {
     buttons: '#202020',
+    titleHome: '#53bed1',
+    titleDetach: '#4F4F4E'
   },
   backgrounds: {
     backgroundBody: '#202020',
@@ -9,7 +11,8 @@ const themes = {
     backgroundBatteryGreen: '#A6D13B'
   },
   borders: {
-    borderFooter: '#848484'
+    borderFooter: '#848484',
+    borderCard:'#53bed1'
   },
   fonts: {
     fontGame: '"Roboto Mono", monospace',

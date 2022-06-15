@@ -1,17 +1,20 @@
 // import Styles from './Styles';
 import Header from '../../components/Header';
-import Emphasis from '../../components/Emphasis';
+import Detach from '../../components/Detach';
 import Footer from '../../components/Footer';
+import Styles from './Styles';
+import Menu from '../../components/Menu';
 
 function Home() {
   return (
-    <section>
+    <Styles.Main>
       <Header />
-      <Emphasis />
+      <Detach />
+      <Menu />
       <Footer
-        buttonA='OK'
+        buttonA='Sejam bem-vindos(as)'
       />
-    </section>
+    </Styles.Main>
   )
 }
 

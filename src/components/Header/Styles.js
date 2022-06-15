@@ -8,6 +8,10 @@ const Header = styled.header`
     display: flex;
     margin: 1.5cm;
   }
+  section:nth-child(2) {
+    display: flex;
+    gap: 20px;
+  }
 `
 
 const ImgIcons = styled.div`
