@@ -9,7 +9,10 @@ function Footer({
   buttonA = null,
   buttonY = null,
   buttonB = null,
-  path
+  pathButtonX,
+  pathButtonA,
+  pathButtonY,
+  pathButtonB
 }) {
   const history = useHistory();
 
@@ -32,7 +35,7 @@ function Footer({
           <>
             <button
               type="button"
-              onClick={ () => history.push(path)}
+              onClick={ () => history.push(pathButtonX)}
             >
               X
             </button>
@@ -44,7 +47,7 @@ function Footer({
           <>
             <button
               type="button"
-              onClick={ () => history.push(path)}
+              onClick={ () => history.push(pathButtonA)}
             >
               A
             </button>
@@ -56,9 +59,9 @@ function Footer({
           <>
             <button
               type="button"
-              onClick={ () => history.push(path)}
+              onClick={ () => history.push(pathButtonY)}
             >
-              X
+              Y
             </button>
             <p>{ buttonY }</p>
           </>
@@ -68,9 +71,9 @@ function Footer({
           <>
             <button
               type="button"
-              onClick={ () => history.push(path)}
+              onClick={ () => history.push(pathButtonY)}
             >
-              X
+              B
             </button>
             <p>{ buttonB }</p>
           </>
@@ -86,6 +89,10 @@ Footer.propTypes = {
   buttonX: PropTypes.string,
   buttonY: PropTypes.string,
   path: PropTypes.string,
+  pathButtonA: PropTypes.string,
+  pathButtonB: PropTypes.string,
+  pathButtonX: PropTypes.string,
+  pathButtonY: PropTypes.string,
 }
 
 export default Footer;
