@@ -1,7 +1,10 @@
+import { useHistory } from 'react-router-dom';
 import icons from '../../images/index';
 import Styles from './Styles';
 
 function Menu() {
+  const history = useHistory();
+
   return (
     <Styles.Container>
       <Styles.Border>
@@ -21,6 +24,7 @@ function Menu() {
       <Styles.Border>
         <button
           type="button"
+          onClick={ () => history.push('/about') }
         >
           <img src={ icons.iconAboutMe } alt="contact icon" />
         </button>
