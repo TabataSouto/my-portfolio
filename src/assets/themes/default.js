@@ -12,7 +12,7 @@ const themes = {
   },
   borders: {
     borderFooter: '#848484',
-    borderCard:'#25ADC1'
+    borderCard:'#79e6f2'
   },
   fonts: {
     fontGame: '"Roboto Mono", monospace',
