@@ -1,16 +1,16 @@
 // import Styles from './Styles';
-import Header from '../../components/Header';
-import Detach from '../../components/Detach';
+import HeaderHome from '../../components/HeaderHome';
+import DetachHome from '../../components/DetachHome';
 import Footer from '../../components/Footer';
 import Styles from './Styles';
-import Menu from '../../components/Menu';
+import MenuHome from '../../components/MenuHome';
 
 function Home() {
   return (
     <Styles.Main>
-      <Header />
-      <Detach />
-      <Menu />
+      <HeaderHome />
+      <DetachHome />
+      <MenuHome />
       <Footer
         buttonA='Sejam bem-vindos(as)'
       />
