@@ -1,7 +1,6 @@
-import gameCodeIcon from '../../images/icon-blue2.png';
-import handIcon from '../../images/hand-icon.png';
+import icons from '../../images';
 import { useHistory } from 'react-router-dom';
-import Style from './Style';
+import Styles from './Styles';
 
 function Start() {
   const history = useHistory();
@@ -13,18 +12,18 @@ function Start() {
   }
 
   return(
-    <Style.Main>
+    <Styles.Main>
 
       <section>
-        <img src={ gameCodeIcon } alt="icon game computer"/>
+        <Styles.ImgHome src={ icons.iconHome } alt="icon game computer"/>
       </section>
 
-      <Style.Container onClick={ handleClick }>
-        <img src={ handIcon } alt="Hand icon" />
-        <p>New game</p>
-      </Style.Container>
+      <Styles.Container onClick={ handleClick }>
+        <img src={ icons.iconHand } alt="Hand icon" />
+        <p>HOME Menu</p>
+      </Styles.Container>
 
-    </Style.Main>
+    </Styles.Main>
   )
 };
 

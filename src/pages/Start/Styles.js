@@ -10,10 +10,18 @@ const Main = styled.main`
   height: 80vh;
 `;
 
+const ImgHome = styled.img`
+  border: 3px solid white;
+  border-radius: 100%;
+  height: 100px;
+  padding: 10px;
+  width: 100px;
+`
+
 const Container = styled.section`
   align-items: center;
   display: flex;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Press Start 2P', cursive;
   font-weight: bold;
   gap: 10px;
   letter-spacing: 2px;
@@ -28,8 +36,9 @@ const Container = styled.section`
     height: 20px;
   }
 `
-const styles = {
+const Styles = {
   Container,
+  ImgHome,
   Main,
 }
-export default styles;
+export default Styles;
