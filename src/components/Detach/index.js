@@ -1,4 +1,4 @@
-import data from '../../data/index';
+import detach from '../../data/index';
 import Styles from './Styles';
 
 function Navigation() {
@@ -8,7 +8,7 @@ function Navigation() {
         <h3>Destaques</h3>
       </section>
       <Styles.ContainerCard>
-        { data.highlights.map(({ id, name, image }) => (
+        { detach.highlights.map(({ id, name, image }) => (
           <Styles.Card key={ id }>
             <p>{ name }</p>
             <div>
