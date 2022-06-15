@@ -4,18 +4,48 @@ import Styles from './Styles';
 function Menu() {
   return (
     <Styles.Container>
-      <div>
-        <img src={ icons.iconMessage } alt="" />
-      </div>
-      <div>
-        <img src={ icons.iconGamerOne } alt="" />
-      </div>
-      <div>
-        <img src={ icons.iconGamerOne } alt="" />
-      </div>
-      <div>
-        <img src={ icons.iconGamerOne } alt="" />
-      </div>
+      <Styles.Border>
+        <button
+          type="button"
+        >
+          <img src={ icons.iconMessage } alt="contact icon" />
+        </button>
+      </Styles.Border>
+      <Styles.Border>
+        <button
+          type="button"
+        >
+          <img src={ icons.iconProjects } alt="contact icon" />
+        </button>
+      </Styles.Border>
+      <Styles.Border>
+        <button
+          type="button"
+        >
+          <img src={ icons.iconAboutMe } alt="contact icon" />
+        </button>
+      </Styles.Border>
+      <Styles.Border>
+        <button
+          type="button"
+        >
+          <img src={ icons.iconSoftSkills } alt="contact icon" />
+        </button>
+      </Styles.Border>
+      <Styles.Border>
+        <button
+          type="button"
+        >
+          <img src={ icons.iconCode } alt="contact icon" />
+        </button>
+      </Styles.Border>
+      <Styles.Border>
+        <button
+          type="button"
+        >
+          <img src={ icons.iconHome } alt="contact icon" />
+        </button>
+      </Styles.Border>
     </Styles.Container>
   )
 };
