@@ -6,8 +6,8 @@ const Main = styled.main`
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  gap: 20px;
-  section h3 {
+  gap: 10px;
+  h3 {
     color: ${ ({ theme }) => theme.colors.titleHome };
     text-align: left;
     text-transform: uppercase;
@@ -26,18 +26,17 @@ const Card = styled.div`
   div {
     align-items: center;
     border: 3px solid transparent;
-    border-radius: 10px;
     display: flex;
     justify-content: center;
     height: 20.2em;
     transition: border 2.5s;
     width: 20.2em;
   }
-  div img {
+  img {
+    cursor: pointer;
     width: 19.8em;
     height: 19.7em;
-    border-radius: none;
-    padding: 5px;
+    padding: 3px;
     object-fit: cover;
   }
   p {
@@ -49,7 +48,6 @@ const Card = styled.div`
   }
   :hover div {
     border-color: ${ ({ theme }) => theme.borders.borderCard };
-    border-radius: 10px;
   }
   :hover p {
     opacity: 1;

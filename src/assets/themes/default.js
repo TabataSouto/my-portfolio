@@ -1,18 +1,18 @@
 const themes = {
   colors: {
     buttons: '#202020',
-    titleHome: '#53bed1',
-    titleDetach: '#4F4F4E'
+    titleHome: '#25ADC1',
+    titleDetach: '#3A3A3A'
   },
   backgrounds: {
     backgroundBody: '#202020',
-    backgroundIcons: '#4F4F4E',
+    backgroundIcons: '#3A3A3A',
     backgroundBattery: '#848484',
     backgroundBatteryGreen: '#A6D13B'
   },
   borders: {
     borderFooter: '#848484',
-    borderCard:'#53bed1'
+    borderCard:'#25ADC1'
   },
   fonts: {
     fontGame: '"Roboto Mono", monospace',
