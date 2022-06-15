@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Start from '../pages/Start';
 import Home from '../pages/Home';
-import AboutMe from '../pages/AboutMe/Styles';
+import AboutMe from '../pages/AboutMe';
 
 function Routes() {
   return (

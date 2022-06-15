@@ -1,7 +1,10 @@
-function AboutMe() {
-  return (
-    <h1>Sobre a Tabata!!!</h1>
-  )
-}
+import styled from 'styled-components';
 
-export default AboutMe;
+const Main = styled.main`
+`
+
+const Styles = {
+  Main,
+};
+
+export default Styles;
