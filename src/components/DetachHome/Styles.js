@@ -4,14 +4,14 @@ const Main = styled.main`
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 20px;
+  margin: 0 5cm;
   height: 100%;
-  gap: 10px;
   h3 {
     color: ${ ({ theme }) => theme.colors.titleHome };
     text-align: left;
     text-transform: uppercase;
-    width: 91vw;
+    width: 45vw;
   }
 `
 
