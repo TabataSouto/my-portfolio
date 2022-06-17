@@ -45,6 +45,7 @@ function Menu() {
       <section>
         <button
           type="button"
+          onClick={ () => history.push('/hard-skills') }
         >
           <img src={ icons.iconCode } alt="contact icon" />
         </button>

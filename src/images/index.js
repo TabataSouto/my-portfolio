@@ -19,6 +19,20 @@ import tabata from './icons/tabata.jpeg';
 import iconWebPage from './icons/web-page.svg';
 import wiFi from './icons/wi-fi.svg';
 
+import iconCSS from './hardskills/css.svg';
+import iconDocker from './hardskills/docker.svg';
+import iconES6 from './hardskills/es6.svg';
+import iconGit from './hardskills/git.svg';
+import iconHTML from './hardskills/html.svg';
+import iconJest from './hardskills/jest.svg';
+import iconLinux from './hardskills/linux.svg';
+import iconMySQL from './hardskills/mysql.svg';
+import iconNodeJS from './hardskills/nodejs.svg';
+import iconReact from './hardskills/react.svg';
+import iconRedux from './hardskills/redux.svg';
+import iconTestingLibrary from './hardskills/testing-library.png';
+import iconVSCode from './hardskills/vscode.svg';
+
 const icons = {
   iconAboutMe,
   iconBattery,
@@ -39,7 +53,20 @@ const icons = {
   switchProController,
   tabata,
   iconWebPage,
-  wiFi
+  wiFi,
+  iconCSS,
+  iconDocker,
+  iconES6,
+  iconGit,
+  iconHTML,
+  iconJest,
+  iconLinux,
+  iconMySQL,
+  iconNodeJS,
+  iconReact,
+  iconRedux,
+  iconTestingLibrary,
+  iconVSCode
 }
 
 export default icons;

@@ -1,7 +1,11 @@
+
+
+import { useHistory } from 'react-router-dom';
 import detach from '../../data/index';
 import Styles from './Styles';
 
 function Navigation() {
+  const history = useHistory();
   return(
     <Styles.Main>
       <Styles.ContainerCard>
@@ -9,7 +13,9 @@ function Navigation() {
           <Styles.Card key={ id }>
             <p>{ name }</p>
             <div>
-              <img src={ image } alt="imagem dos projetos em destaque" />
+              <img src={ image } alt="imagem dos projetos em destaque" 
+                onClick={ () => history.push('/hard-skills')}
+              />
             </div>
           </Styles.Card>
         ))}
