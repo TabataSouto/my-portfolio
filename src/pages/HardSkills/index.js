@@ -1,7 +1,30 @@
-function HardSkills() {
+import Styles from './Styles';
+import icons from '../../images';
+
+import Footer from '../../components/Footer';
+import Skills from '../../components/Skills'
+import MainHeader from '../../components/MainHeader';
+
+function AboutMe() {
   return (
-    <h1>Habilidades</h1>
+    <Styles.Main>
+      <MainHeader
+        image={ icons.iconGit }
+        text="Habilidades"
+      />
+      <Skills />
+      <Footer
+        buttonX='Home'
+        pathButtonX='/home'
+        buttonA='Projetos'
+        pathButtonA='/projects'
+        buttonY='Soft Skills'
+        pathButtonY='/soft-skills'
+        buttonB='Contato'
+        pathButtonB='/contact'
+      />
+    </Styles.Main>
   )
 }
 
-export default HardSkills;
+export default AboutMe;
