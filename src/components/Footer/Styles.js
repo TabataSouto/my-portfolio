@@ -18,20 +18,25 @@ const Buttons = styled.section`
   align-items: center;
   display: flex;
   margin: 0.3cm 1.5cm;
-  button {
+  gap: 20px;
+  div {
     align-items: center;
-    background: white;
-    border: none;
-    border-radius: 100%;
-    color: ${ ({ theme }) => theme.colors.buttons };
     display: flex;
-    justify-content: center;
-    font-size: 17px;
-    font-weight: bold;
-    margin: 0 0.3cm;
-    padding: 0px;
-    height: 20px;
-    width: 20px;
+    gap: 5px;
+    button {
+      align-items: center;
+      background: white;
+      border: none;
+      border-radius: 100%;
+      color: ${ ({ theme }) => theme.colors.buttons };
+      display: flex;
+      justify-content: center;
+      font-size: 17px;
+      font-weight: bold;
+      padding: 0px;
+      height: 20px;
+      width: 20px;
+    }
   }
 `
 
