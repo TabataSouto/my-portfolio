@@ -18,6 +18,7 @@ function Menu() {
       <section>
         <button
           type="button"
+          onClick={ () => history.push('/projects') }
         >
           <img src={ icons.iconProjects } alt="contact icon" />
         </button>

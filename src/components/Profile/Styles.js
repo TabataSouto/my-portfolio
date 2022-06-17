@@ -24,6 +24,10 @@ const Container = styled.section`
   ::-webkit-scrollbar-thumb {
     background: ${ ({ theme }) => theme.backgrounds.backgroundIcons }; 
   }
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} */
   section {
     display: flex;
     justify-content: center;
@@ -73,6 +77,7 @@ const Name = styled.div`
 `
 
 const Description = styled.section`
+  /* background: brown; */
   display: flex;
   flex-direction: column;
   width: 51.3em;
@@ -98,10 +103,10 @@ const Title = styled.div`
 const AboutMe = styled.div`
   display: flex;
   flex-direction: column;
-  font-size: 15px;
   gap: 10px;
   padding: 0.5cm 0.4cm 0 0.4cm;
   text-align: justify;
+  font-size: 15px;
 `
 
 const Styles = {
