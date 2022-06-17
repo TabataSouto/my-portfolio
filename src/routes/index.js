@@ -4,6 +4,7 @@ import Start from '../pages/Start';
 import Home from '../pages/Home';
 import AboutMe from '../pages/AboutMe';
 import Projects from '../pages/Projects';
+import Contact from '../pages/Contact';
 
 function Routes() {
   return (
@@ -13,6 +14,7 @@ function Routes() {
         <Route path="/home" component={ Home } />
         <Route path="/about" component={ AboutMe } />
         <Route path="/projects/" component={ Projects } />
+        <Route path="/contact" component={ Contact } />
       </Switch>
     </BrowserRouter>
   );
