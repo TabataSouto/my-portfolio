@@ -31,9 +31,8 @@ const Buttons = styled.section`
       color: ${ ({ theme }) => theme.colors.buttons };
       display: flex;
       justify-content: center;
-      font-size: 17px;
+      font-size: 14px;
       font-weight: bold;
-      padding: 0px;
       height: 20px;
       width: 20px;
     }

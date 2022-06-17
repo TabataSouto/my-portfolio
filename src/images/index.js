@@ -1,9 +1,11 @@
 import iconAboutMe from './icons/about-me.svg';
 import iconBattery from './icons/battery.svg';
 import iconCode from './icons/code.svg';
+import iconCodePng from './icons/code.png';
 import gameController from './icons/controller-game-100.png';
 import iconGamerOne from './icons/gamer-1.png';
 import iconGamerTwo from './icons/gamer-2.png';
+import iconGithub from './icons/github.svg';
 import iconHand from './icons/hand-icon.png';
 import iconHome from './icons/icon-home.png';
 import iconMessage from './icons/message.svg';
@@ -13,15 +15,18 @@ import iconQuestion from './icons/question.svg';
 import iconSoftSkills from './icons/soft-skills.svg'
 import switchProController from './icons/switch-pro-controller.png'
 import tabata from './icons/tabata.jpeg';
+import iconWebPage from './icons/web-page.svg';
 import wiFi from './icons/wi-fi.svg';
 
 const icons = {
   iconAboutMe,
   iconBattery,
   iconCode,
+  iconCodePng,
   gameController,
   iconGamerOne,
   iconGamerTwo,
+  iconGithub,
   iconHand,
   iconHome,
   iconMessage,
@@ -31,6 +36,7 @@ const icons = {
   iconSoftSkills,
   switchProController,
   tabata,
+  iconWebPage,
   wiFi
 }
 

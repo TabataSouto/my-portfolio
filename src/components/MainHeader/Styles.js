@@ -13,6 +13,7 @@ const Header = styled.header`
 `
 
 const ImgIcons = styled.div`
+  background: white;
   border: 2px solid ${ ({ theme }) => theme.backgrounds.backgroundIcons };
   border-radius: 50%;
   margin: 0 5px;

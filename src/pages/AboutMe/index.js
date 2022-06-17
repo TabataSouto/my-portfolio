@@ -1,13 +1,17 @@
 import Styles from './Styles';
+import icons from '../../images';
 
 import Footer from '../../components/Footer';
 import Profile from '../../components/Profile'
-import HeaderAbout from '../../components/HeaderAbout';
+import MainHeader from '../../components/MainHeader';
 
 function AboutMe() {
   return (
     <Styles.Main>
-      <HeaderAbout />
+      <MainHeader
+        image={ icons.tabata }
+        text="Perfil da Tabata"
+      />
       <Profile />
       <Footer
         buttonX='Home'
