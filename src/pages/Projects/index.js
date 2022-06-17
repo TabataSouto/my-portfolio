@@ -9,7 +9,7 @@ function Projects() {
   return (
     <Styles.Main>
       <MainHeader
-        image={ icons.iconCodePng }
+        image={ icons.iconProjectsTwo }
         text="Projetos"
       />
       <CardProjects />
