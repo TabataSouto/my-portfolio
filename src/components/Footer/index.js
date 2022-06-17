@@ -71,7 +71,7 @@ function Footer({
           <div>
             <button
               type="button"
-              onClick={ () => history.push(pathButtonY)}
+              onClick={ () => history.push(pathButtonB)}
             >
               B
             </button>
