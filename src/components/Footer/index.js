@@ -32,7 +32,7 @@ function Footer({
       <Styles.Buttons>
         {
           buttonX !== null &&
-          <>
+          <div>
             <button
               type="button"
               onClick={ () => history.push(pathButtonX)}
@@ -40,11 +40,11 @@ function Footer({
               X
             </button>
             <p>{ buttonX }</p>
-          </>
+          </div>
         }
         { 
           buttonA !== null &&
-          <>
+          <div>
             <button
               type="button"
               onClick={ () => history.push(pathButtonA)}
@@ -52,11 +52,11 @@ function Footer({
               A
             </button>
             <p>{ buttonA }</p>
-          </>
+          </div>
         }
         {
           buttonY !== null &&
-          <>
+          <div>
             <button
               type="button"
               onClick={ () => history.push(pathButtonY)}
@@ -64,11 +64,11 @@ function Footer({
               Y
             </button>
             <p>{ buttonY }</p>
-          </>
+          </div>
         }
         {
           buttonB !== null &&
-          <>
+          <div>
             <button
               type="button"
               onClick={ () => history.push(pathButtonY)}
@@ -76,7 +76,7 @@ function Footer({
               B
             </button>
             <p>{ buttonB }</p>
-          </>
+          </div>
         }
       </Styles.Buttons>
     </Styles.Footer>
