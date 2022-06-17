@@ -2,6 +2,7 @@ import Styles from './Styles'
 import icons from '../../images';
 
 import MainHeader from '../../components/MainHeader';
+import InfosContact from '../../components/InfosContact';
 import Footer from '../../components/Footer';
 
 function Contact() {
@@ -11,6 +12,7 @@ function Contact() {
         image={ icons.iconContact }
         text="Contato"
       />
+      <InfosContact />
       <Footer
         buttonX='Home'
         pathButtonX='/home'

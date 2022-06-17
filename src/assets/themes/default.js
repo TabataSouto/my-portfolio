@@ -2,8 +2,8 @@ const themes = {
   colors: {
     buttons: '#202020',
     titleHome: '#25ADC1',
-    titleDetach: '#3A3A3A',
-    skills: '#25ADC1'
+    skills: '#25ADC1',
+    contact: '#79e6f2'
   },
   backgrounds: {
     backgroundBody: '#202020',

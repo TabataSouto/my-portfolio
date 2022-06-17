@@ -1,11 +1,9 @@
 import styled from 'styled-components';
 
 const Container = styled.section`
-  /* background-color: salmon; */
   height: 100%;
   align-items: center;
   border-top: 2px solid ${ ({ theme }) => theme.borders.borderFooter };
-  /* border-spacing: 10px; */
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -16,22 +14,17 @@ const Container = styled.section`
   ::-webkit-scrollbar {
     width: 2px;
   }
-  /* Track */
   ::-webkit-scrollbar-track {
     background: transparent; 
   }
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     background: ${ ({ theme }) => theme.backgrounds.backgroundIcons }; 
   }
-/* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-} */
   section {
     display: flex;
     justify-content: center;
-  }`
+  }
+`
 
 const Photography = styled.div`
   align-items: flex-end;
