@@ -15,7 +15,7 @@ const Container = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: border 1s;
+    transition: border 1s, margin 1s;
   }
   & p {
     position: absolute;
@@ -27,8 +27,9 @@ const Container = styled.section`
   & section:hover {
     border: 3px solid ${ ({ theme }) => theme.borders.borderCard };
     border-radius: 100%;
-    height: 85px;
-    width: 85px;
+    height: 75px;
+    width: 75px;
+    margin: 5px;
   }
   & :hover p {
     opacity: 1;
@@ -41,13 +42,12 @@ const Container = styled.section`
     border-radius: 100%;
     display: flex;
     justify-content: center;
-    margin: 5px;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
   }
   img {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
   }
 `
 const Styles = {

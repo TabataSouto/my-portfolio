@@ -2,17 +2,13 @@ import styled from 'styled-components';
 
 const Header = styled.header`
   display: flex;
-  font-size: 18px;
   justify-content: space-between;
+  margin: 0 1.5cm;
   section {
     align-items: center;
     display: flex;
-    margin: 1.5cm;
-    /* gap: 5px; */
-  }
-  section:nth-child(2) {
-    display: flex;
-    gap: 20px;
+    gap: 5px;
+    margin: 0.7cm 1.5cm;
   }
 `
 
