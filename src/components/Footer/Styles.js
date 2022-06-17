@@ -3,15 +3,16 @@ import styled from 'styled-components';
 const Footer = styled.footer`
   border-top: 2px solid ${ ({ theme }) => theme.borders.borderFooter };
   display: flex;
+  font-size: 15px;
   justify-content: space-between;
-  margin: 1.5cm;
+  margin: 0 1.5cm;
 `
 
 const Controller = styled.section`
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin: 0.3cm 1.5cm;
+  margin: 0.2cm 1.5cm;
 `
 const Buttons = styled.section`
   align-items: center;
@@ -29,8 +30,8 @@ const Buttons = styled.section`
     font-weight: bold;
     margin: 0 0.3cm;
     padding: 0px;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
   }
 `
 
@@ -40,14 +41,14 @@ const Battery = styled.div`
   justify-content: center;
   div:nth-child(1) {
     background-color: ${ ({ theme }) => theme.backgrounds.backgroundBatteryGreen };
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
   }
   div {
     background-color: ${ ({ theme }) => theme.backgrounds.backgroundBattery };
-    height: 6px;
+    height: 5px;
     margin: 0 2px;
-    width: 6px;
+    width: 5px;
   }
 `
 

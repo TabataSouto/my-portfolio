@@ -36,6 +36,9 @@ function Header() {
         </Styles.ImgIcons>
       </section>
       <section>
+        Destaques
+      </section>
+      <section>
         <p>{ date }</p>
         <img src={ icons.wiFi } alt="" />
         <img src={ icons.iconBattery } alt="" />

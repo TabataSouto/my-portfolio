@@ -1,5 +1,5 @@
 import iconAboutMe from './icons/about-me.svg';
-import iconBattery from './icons/battery.png';
+import iconBattery from './icons/battery.svg';
 import iconCode from './icons/code.svg';
 import gameController from './icons/controller-game-100.png';
 import iconGamerOne from './icons/gamer-1.png';
@@ -13,7 +13,7 @@ import iconQuestion from './icons/question.svg';
 import iconSoftSkills from './icons/soft-skills.svg'
 import switchProController from './icons/switch-pro-controller.png'
 import tabata from './icons/tabata.jpeg';
-import wiFi from './icons/wi-fi.png';
+import wiFi from './icons/wi-fi.svg';
 
 const icons = {
   iconAboutMe,

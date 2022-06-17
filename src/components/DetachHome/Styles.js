@@ -1,41 +1,31 @@
 import styled from 'styled-components';
 
 const Main = styled.main`
-  align-items: center;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin: 0 5cm;
-  height: 100%;
-  h3 {
-    color: ${ ({ theme }) => theme.colors.titleHome };
-    text-align: left;
-    text-transform: uppercase;
-    width: 45vw;
-  }
+  justify-content: center;
+  height: auto;
 `
 
 const ContainerCard = styled.section`
   display: flex;
-  gap: 20px;
 `
 
 const Card = styled.div`
-  height: 20em;
-  width: 20em;
+  height: 16em;
+  width: 16em;
   div {
     align-items: center;
     border: 3px solid transparent;
     display: flex;
     justify-content: center;
-    height: 20.2em;
+    height: 15.4em;
     transition: border 2.5s;
-    width: 20.2em;
+    width: 15.4em;
   }
   img {
     cursor: pointer;
-    width: 19.8em;
-    height: 19.7em;
+    width: 15em;
+    height: 15em;
     padding: 3px;
     object-fit: cover;
   }
@@ -57,7 +47,6 @@ const Card = styled.div`
 const Styles = {
   Main,
   ContainerCard,
-  // Container,
   Card,
 }
 

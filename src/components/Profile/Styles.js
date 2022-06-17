@@ -1,14 +1,33 @@
 import styled from 'styled-components';
 
 const Container = styled.section`
+  /* background-color: salmon; */
   height: 100%;
   align-items: center;
   border-top: 2px solid ${ ({ theme }) => theme.borders.borderFooter };
+  /* border-spacing: 10px; */
   display:flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 1.5cm;
-  padding: 0.8cm 0;
+  padding: 0.8cm;
+  overflow: auto;
+  scroll-margin-left: 20px;
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: ${ ({ theme }) => theme.backgrounds.backgroundIcons }; 
+  }
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} */
   section {
     display: flex;
     justify-content: center;
@@ -23,11 +42,10 @@ const Photography = styled.div`
     width: 150px;
   }
   div {
+    margin-left: -0.8cm;
+    margin-bottom: 0.2cm;
     background: ${ ({ theme }) => theme.backgrounds.backgroundIcons };
     border-radius: 100%;
-    margin: 8px;
-    padding: 3px;
-    position: absolute;
       img {
       display: flex;
       width: 25px;
@@ -37,7 +55,7 @@ const Photography = styled.div`
 const Office = styled.div`
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid ${ ({ theme }) => theme.borders.borderProfile };
+  /* border-top: 1px solid ${ ({ theme }) => theme.borders.borderProfile }; */
   border-bottom: 1px solid ${ ({ theme }) => theme.borders.borderProfile };
   padding:  0.8cm 1cm;
   width: 40em;
@@ -86,7 +104,7 @@ const AboutMe = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 0.5cm 0.8cm;
+  padding: 0.5cm 0.4cm 0 0.4cm;
   text-align: justify;
 `
 

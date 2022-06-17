@@ -3,8 +3,8 @@ import styled from 'styled-components';
 const Main = styled.main`
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
-  justify-content: flex-end;
 `
 
 const Styles = {

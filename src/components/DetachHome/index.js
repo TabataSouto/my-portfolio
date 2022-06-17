@@ -4,9 +4,6 @@ import Styles from './Styles';
 function Navigation() {
   return(
     <Styles.Main>
-      <section>
-        <h3>Destaques</h3>
-      </section>
       <Styles.ContainerCard>
         { detach.highlights.map(({ id, name, image }) => (
           <Styles.Card key={ id }>
