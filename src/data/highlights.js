@@ -1,8 +1,8 @@
 const highlights = [
   {
     id: 1,
-    name: 'TrybeTunes',
-    image: 'https://i.postimg.cc/54cqjdsv/trybetunes.png'
+    name: 'Tryunfo',
+    image: 'https://i.postimg.cc/jdXMnwLy/Screenshot-from-2022-07-03-16-10-43.png'
   },
   {
     id: 2,

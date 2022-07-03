@@ -14,7 +14,7 @@ function Navigation() {
             <p>{ name }</p>
             <div>
               <img src={ image } alt="imagem dos projetos em destaque" 
-                onClick={ () => history.push('/hard-skills')}
+                onClick={ () => history.push('/projects')}
               />
             </div>
           </Styles.Card>

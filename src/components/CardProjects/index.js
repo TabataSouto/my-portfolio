@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import icons from '../../images';
 import data from '../../data';
 import Styles from './Styles';
@@ -31,12 +31,12 @@ function CardProjects() {
                 ))}
               </Styles.Skills>
               <Styles.Links>
-                <Link to={ gitHub }>
+                <a href={ gitHub } target="blank">
                   <img src={ icons.iconGithub } alt=" icon web page"/>
-                </Link>
-                <Link to={ webPage }>
+                </a>
+                <a href={ webPage } target="blank">
                   <img src={ icons.iconWebPage } alt=" icon web page"/>
-                </Link>
+                </a>
               </Styles.Links>
             </div>
           </Styles.Card>
