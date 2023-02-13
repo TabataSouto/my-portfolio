@@ -52,7 +52,7 @@ const CardInfos = styled.div`
   padding: 10px;
   gap: 10px;
   p {
-    font-size: 14px;
+    font-size: 12px;
     text-align: justify;
   }
 `
