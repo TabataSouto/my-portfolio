@@ -1,3 +1,4 @@
+import React from 'react'
 import icons from '../../images';
 import Styles from './Styles';
 

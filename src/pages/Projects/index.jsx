@@ -1,23 +1,24 @@
+import React from 'react'
 import Styles from './Styles'
 import icons from '../../images';
 
 import MainHeader from '../../components/MainHeader';
-import InfosContact from '../../components/InfosContact';
+import CardProjects from '../../components/CardProjects';
 import Footer from '../../components/Footer';
 
-function Contact() {
+function Projects() {
   return (
     <Styles.Main>
       <MainHeader
-        image={ icons.iconContact }
-        text="Contato"
+        image={ icons.iconProjectsTwo }
+        text="Projetos"
       />
-      <InfosContact />
+      <CardProjects />
       <Footer
         buttonX='Home'
         pathButtonX='/home'
-        buttonA='Projetos'
-        pathButtonA='/projects'
+        buttonA='Contato'
+        pathButtonA='/contact'
         buttonY='Soft Skills'
         pathButtonY='/soft-skills'
         buttonB='Hard Skills'
@@ -27,4 +28,4 @@ function Contact() {
   )
 }
 
-export default Contact;
+export default Projects;

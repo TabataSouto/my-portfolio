@@ -2,7 +2,7 @@ const highlights = [
   {
     id: 1,
     name: 'Tryunfo',
-    image: 'https://i.postimg.cc/jdXMnwLy/Screenshot-from-2022-07-03-16-10-43.png'
+    image: 'https://i.postimg.cc/jdXMnwLy/Screenshot-from-2022-07-03-16-10-43.png',
   },
   {
     id: 2,

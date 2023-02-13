@@ -1,3 +1,4 @@
+import React from 'react'
 import { useHistory } from 'react-router-dom';
 import icons from '../../images/index';
 import Styles from './Styles';

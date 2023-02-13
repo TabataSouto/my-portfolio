@@ -1,4 +1,4 @@
-// import Styles from './Styles';
+import React from 'react'
 import HeaderHome from '../../components/HeaderHome';
 import Main from '../../components/Main';
 import Footer from '../../components/Footer';

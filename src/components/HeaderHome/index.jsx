@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import functions from '../../utils/';
+import functions from '../../utils';
 import Styles from './Styles';
 
 import icons from '../../images';

@@ -1,3 +1,4 @@
+import React from 'react'
 import DetachHome from '../DetachHome';
 import MenuPages from '../MenuPages';
 

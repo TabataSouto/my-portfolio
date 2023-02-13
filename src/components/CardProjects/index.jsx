@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom';
+import React from 'react'
 import icons from '../../images';
 import data from '../../data';
 import Styles from './Styles';
