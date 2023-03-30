@@ -33,6 +33,12 @@ import iconReact from './hardskills/react.svg';
 import iconRedux from './hardskills/redux.svg';
 import iconTestingLibrary from './hardskills/testing-library.png';
 import iconVSCode from './hardskills/vscode.svg';
+import iconAngular from './hardskills/angular.png';
+import iconReduxToolkit from './hardskills/redux-toolkit.png';
+import iconJasmine from './hardskills/jasmine.png';
+import iconTypeScript from './hardskills/typescript.png';
+import iconStyledComponents from './hardskills/styled-components.png';
+import iconMaterialUi from './hardskills/material-ui.png';
 
 const icons = {
   iconAboutMe,
@@ -68,7 +74,13 @@ const icons = {
   iconRedux,
   iconTestingLibrary,
   iconVSCode,
-  loadingIcon
+  loadingIcon,
+  iconAngular,
+  iconReduxToolkit,
+  iconJasmine,
+  iconTypeScript,
+  iconStyledComponents,
+  iconMaterialUi
 }
 
 export default icons;

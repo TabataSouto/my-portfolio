@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 const Main = styled.main`
-  height: 100%;
+  height: 100vh;
+  overflow: auto;
   align-items: center;
   border-top: 2px solid ${ ({ theme }) => theme.borders.borderFooter };
   display:flex;
@@ -9,6 +10,18 @@ const Main = styled.main`
   margin: 0 1.5cm;
   padding: 0.8cm;
   gap: 10px;
+  overflow: auto;
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: ${ ({ theme }) => theme.backgrounds.backgroundIcons }; 
+  }
   section {
     display: flex;
     flex-wrap: wrap;
@@ -33,6 +46,7 @@ const Main = styled.main`
       font-weight: bold;
       letter-spacing: 1px;
       text-transform: uppercase;
+      text-align: center
     }
   }  
   }
