@@ -12,7 +12,7 @@ const projects = [
     id: 2,
     name: 'My Songs',
     description: 'Aplicação para pesquisar e listar álbuns de músicas, assim como as músicas, sendo possível ouvir o preview de cada música e favoritar.',
-    skills: ['Angular', 'HTML5', 'CSS3', 'ES6', 'TypeScript'],
+    skills: ['Angular', 'HTML5', 'SCSS', 'ES6', 'TypeScript'],
     image: 'https://i.postimg.cc/DwpZjCLH/undraw-secure-login-pdn4.png',
     webPage: 'N/A',
     gitHub: 'https://github.com/TabataSouto/project-my-songs-angular',

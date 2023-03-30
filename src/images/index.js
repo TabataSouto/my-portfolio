@@ -18,6 +18,7 @@ import switchProController from './icons/switch-pro-controller.png'
 import tabata from './icons/tabata.jpeg';
 import iconWebPage from './icons/web-page.svg';
 import wiFi from './icons/wi-fi.svg';
+import loadingIcon from './icons/loading.svg';
 
 import iconCSS from './hardskills/css.svg';
 import iconDocker from './hardskills/docker.svg';
@@ -66,7 +67,8 @@ const icons = {
   iconReact,
   iconRedux,
   iconTestingLibrary,
-  iconVSCode
+  iconVSCode,
+  loadingIcon
 }
 
 export default icons;
