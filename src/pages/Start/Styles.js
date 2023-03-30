@@ -9,16 +9,26 @@ const Main = styled.main`
   height: 80vh;
 `;
 
-const ContainerImgs = styled.section`
+const Container = styled.section`
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  height: 15em;
+  & div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   & p {
     letter-spacing: 1px;
     opacity: 0;
     font-size: 10px;
   }
 `;
+
+const TitleContainer = styled.div`
+  height: 70px;
+  letter-spacing: 1px
+`
 
 const ImgHome = styled.img`
   border: 3px solid white;
@@ -29,7 +39,7 @@ const ImgHome = styled.img`
   cursor: pointer;
   transition: width 1s, margin 1s;
   &:hover {
-    width: 120px;
+    width: 110px;
     margin: 15px;
   }
 `;
@@ -67,7 +77,8 @@ const AvaibledProfile = styled.div`
 `;
 
 const Styles = {
-  ContainerImgs,
+  Container,
+  TitleContainer,
   ImgHome,
   Main,
   ImgLoading,

@@ -17,44 +17,49 @@ function Start() {
 
   return (
     <Styles.Main>
-      <Styles.ContainerImgs>
+      <Styles.Container>
         {loading ? (
           <Styles.ImgLoading src={icons.loadingIcon} alt="loading icon" />
         ) : (
           <>
-            <Styles.NotAvaibledProfile>
-              <Styles.ImgHome
-                src={icons.iconGamerOne}
-                alt="icon game computer"
-              />
-              <p>Perfil indisponível!</p>
-            </Styles.NotAvaibledProfile>
-            <Styles.NotAvaibledProfile>
-              <Styles.ImgHome
-                src={icons.gameController}
-                alt="icon game computer"
-              />
-              <p>Perfil indisponível!</p>
-            </Styles.NotAvaibledProfile>
-            <Styles.AvaibledProfile>
-              <Styles.ImgHome
-                src={icons.tabata}
-                alt="icon game computer"
-                onClick={handleClick}
-              />
-              <p>Tabata Souto</p>
-              <p>Desenvolvedora Front-end</p>
-            </Styles.AvaibledProfile>
-            <Styles.NotAvaibledProfile>
-              <Styles.ImgHome
-                src={icons.iconGamerTwo}
-                alt="icon game computer"
-              />
-              <p>Perfil indisponível!</p>
-            </Styles.NotAvaibledProfile>
+            <Styles.TitleContainer>
+              <h4>Escolha um perfil</h4>
+            </Styles.TitleContainer>
+            <div>
+              <Styles.NotAvaibledProfile>
+                <Styles.ImgHome
+                  src={icons.iconGamerOne}
+                  alt="icon game computer"
+                />
+                <p>Perfil indisponível!</p>
+              </Styles.NotAvaibledProfile>
+              <Styles.NotAvaibledProfile>
+                <Styles.ImgHome
+                  src={icons.gameController}
+                  alt="icon game computer"
+                />
+                <p>Perfil indisponível!</p>
+              </Styles.NotAvaibledProfile>
+              <Styles.AvaibledProfile>
+                <Styles.ImgHome
+                  src={icons.tabata}
+                  alt="icon game computer"
+                  onClick={handleClick}
+                />
+                <p>Tabata Souto</p>
+                <p>Desenvolvedora Front-end</p>
+              </Styles.AvaibledProfile>
+              <Styles.NotAvaibledProfile>
+                <Styles.ImgHome
+                  src={icons.iconGamerTwo}
+                  alt="icon game computer"
+                />
+                <p>Perfil indisponível!</p>
+              </Styles.NotAvaibledProfile>
+            </div>
           </>
         )}
-      </Styles.ContainerImgs>
+      </Styles.Container>
     </Styles.Main>
   );
 }
