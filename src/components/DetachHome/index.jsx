@@ -12,11 +12,12 @@ function Navigation() {
         <Styles.Card>
           <p>{detach.highlights[0].name}</p>
           <div>
-            <img
-              src={detach.highlights[0].image}
-              alt="imagem dos projetos em destaque"
-              onClick={() => history.push("/projects")}
-            />
+            <a target="_blank" rel="noopener noreferrer" href="https://tryunfo-beryl.vercel.app/">
+              <img
+                src={detach.highlights[0].image}
+                alt="imagem do projeto Tryunfo"
+              />
+            </a>
           </div>
         </Styles.Card>
         <Styles.Card>
@@ -35,7 +36,6 @@ function Navigation() {
             <img
               src={detach.highlights[2].image}
               alt="imagem dos projetos em destaque"
-              // onClick={() => history.push("/projects")}
             />
           </div>
         </Styles.Card>

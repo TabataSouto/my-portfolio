@@ -39,8 +39,7 @@ const ImgHome = styled.img`
   cursor: pointer;
   transition: width 1s, margin 1s;
   &:hover {
-    width: 110px;
-    margin: 15px;
+    margin: 10px 20px;
   }
 `;
 
@@ -66,7 +65,6 @@ const AvaibledProfile = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: -10px;
   & p {
     color: rgb(37, 173, 193);
     transition: opacity 1s;

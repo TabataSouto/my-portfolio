@@ -47,7 +47,7 @@ function Start() {
                   onClick={handleClick}
                 />
                 <p>Tabata Souto</p>
-                <p>Desenvolvedora Front-end</p>
+                <p>Front-end Developer</p>
               </Styles.AvaibledProfile>
               <Styles.NotAvaibledProfile>
                 <Styles.ImgHome
