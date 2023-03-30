@@ -76,21 +76,8 @@ const Links = styled.div`
   align-items: center;
   display: flex;
   justify-content: flex-end;
-  gap: 5px;
-  padding: 0 10px;
-  a:nth-child(1){
-    text-decoration: none;
-    img {
-      width: 25px;
-    }
-  }
-  a:nth-child(2){
-    margin-left: 10px;
-    text-decoration: none;
-    img {
-      width:35px;
-    }
-  }
+  gap: 10px;
+  padding: 5px 10px;
 `
 
 const Styles = {

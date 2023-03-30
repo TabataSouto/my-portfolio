@@ -19,15 +19,6 @@ const projects = [
   },
   // {
   //   id: 3,
-  //   name: 'Pokémon Game',
-  //   description: 'Jogo de advinhação baseado no "Quem é esse Pokémon" do próprio desenho, com página de ranking.',
-  //   skills: ['React', 'Context APi', 'Hooks', 'HTML5', 'CSS3', 'ES6'],
-  //   image: 'https://i.postimg.cc/DwpZjCLH/undraw-secure-login-pdn4.png',
-  //   webPage: 'N/A',
-  //   gitHub: 'N/A',
-  // },
-  // {
-  //   id: 4,
   //   name: '',
   //   description: '',
   //   skills: [],
