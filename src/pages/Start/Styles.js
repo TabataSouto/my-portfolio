@@ -12,6 +12,12 @@ const Main = styled.main`
 const ContainerImgs = styled.section`
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  & p {
+    letter-spacing: 1px;
+    opacity: 0;
+    font-size: 10px;
+  }
 `;
 
 const ImgHome = styled.img`
@@ -32,46 +38,40 @@ const ImgLoading = styled.img`
   width: 80px;
 `;
 
-const ProfileCard = styled.div`
+const NotAvaibledProfile = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   & p {
-    font-size: 10px;
+    margin-bottom: 10px;
     color: brown;
-    letter-spacing: 1px;
-    opacity: 0;
     transition: opacity 1s;
   }
   &:hover p {
-    opacity: 1
+    opacity: 1;
   }
-`
+`;
 
-// const Container = styled.section`
-//   align-items: center;
-//   display: flex;
-//   font-family: 'Press Start 2P', cursive;
-//   font-weight: bold;
-//   gap: 10px;
-//   letter-spacing: 2px;
-//   &:hover {
-//     cursor: default;
-//   }
-//   & p:active {
-//     transform: scale(0.9);
-//   }
-//   & img {
-//     width: 25px;
-//     height: 20px;
-//   }
-// `
+const AvaibledProfile = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -10px;
+  & p {
+    color: rgb(37, 173, 193);
+    transition: opacity 1s;
+  }
+  &:hover p {
+    opacity: 1;
+  }
+`;
 
 const Styles = {
   ContainerImgs,
   ImgHome,
   Main,
   ImgLoading,
-  ProfileCard
+  NotAvaibledProfile,
+  AvaibledProfile
 };
 export default Styles;

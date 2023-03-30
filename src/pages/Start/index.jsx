@@ -22,36 +22,36 @@ function Start() {
           <Styles.ImgLoading src={icons.loadingIcon} alt="loading icon" />
         ) : (
           <>
-            <Styles.ProfileCard>
+            <Styles.NotAvaibledProfile>
               <Styles.ImgHome
                 src={icons.iconGamerOne}
                 alt="icon game computer"
               />
               <p>Perfil indisponível!</p>
-            </Styles.ProfileCard>
-            <Styles.ProfileCard>
+            </Styles.NotAvaibledProfile>
+            <Styles.NotAvaibledProfile>
               <Styles.ImgHome
                 src={icons.gameController}
                 alt="icon game computer"
               />
               <p>Perfil indisponível!</p>
-            </Styles.ProfileCard>
-            <Styles.ProfileCard>
+            </Styles.NotAvaibledProfile>
+            <Styles.AvaibledProfile>
               <Styles.ImgHome
                 src={icons.tabata}
                 alt="icon game computer"
                 onClick={handleClick}
               />
-              <p style={{ color: '#25ADC1' }}>Tabata Souto</p>
-              <p style={{ color: '#25ADC1' }}>Desenvolvedora Front-end</p>
-            </Styles.ProfileCard>
-            <Styles.ProfileCard>
+              <p>Tabata Souto</p>
+              <p>Desenvolvedora Front-end</p>
+            </Styles.AvaibledProfile>
+            <Styles.NotAvaibledProfile>
               <Styles.ImgHome
                 src={icons.iconGamerTwo}
                 alt="icon game computer"
               />
               <p>Perfil indisponível!</p>
-            </Styles.ProfileCard>
+            </Styles.NotAvaibledProfile>
           </>
         )}
       </Styles.ContainerImgs>
