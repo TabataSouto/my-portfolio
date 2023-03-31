@@ -3,14 +3,13 @@ import styled from 'styled-components';
 const Main = styled.main`
   height: 100vh;
   overflow: auto;
-  align-items: center;
+  /* align-items: center; */
   border-top: 2px solid ${ ({ theme }) => theme.borders.borderFooter };
   display:flex;
   justify-content: center;
   margin: 0 1.5cm;
   padding: 0.8cm;
-  gap: 10px;
-  overflow: auto;
+  /* gap: 10px; */
   ::-webkit-scrollbar {
     width: 2px;
   }
@@ -28,6 +27,7 @@ const Main = styled.main`
     justify-content: center;
     gap: 10px;
     width: 60em;
+    /* margin-top: 0; */
     div {
       background-color: ${ ({ theme }) => theme.backgrounds.backgroundIcons };
       align-items: center;
@@ -37,7 +37,7 @@ const Main = styled.main`
       padding: 3px;
       height: 130px;
       width: 120px;
-    img {
+      img {
       width: 80px;
     }
     p {
