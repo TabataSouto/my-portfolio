@@ -1,18 +1,18 @@
 import React from "react";
 import Styles from "./Styles";
-import hardSkills from "../../data/hardskills";
+// import hardSkills from "../../data/hardskills";
 
 function Skills() {
   return (
     <Styles.Main>
-      <section>
+      {/* <section>
         {hardSkills.map(({ image, name }) => (
           <div>
             <img src={image} alt={name} />
             <p>{name}</p>
           </div>
         ))}
-      </section>
+      </section> */}
     </Styles.Main>
   );
 }

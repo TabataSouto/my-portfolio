@@ -1,14 +1,14 @@
 import React from "react";
-import icons from "../../images";
-import data from "../../data";
+// import icons from "../../images";
+// import data from "../../data/request";
 import Styles from "./Styles";
 
-const { projects } = data;
+// const { projects } = data;
 
 function CardProjects() {
   return (
     <Styles.Container>
-      {projects.map(
+      {/* {projects.map(
         ({ id, name, description, skills, image, webPage, gitHub }) => (
           <Styles.Card key={id}>
             <div>
@@ -43,7 +43,7 @@ function CardProjects() {
             </div>
           </Styles.Card>
         )
-      )}
+      )} */}
     </Styles.Container>
   );
 }
