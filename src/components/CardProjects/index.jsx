@@ -11,6 +11,9 @@ function CardProjects() {
       .then((response) => response.data);
   });
 
+  console.log(isLoading)
+  console.log(data)
+
   return (
     <Styles.Container>
       {isLoading ? (
@@ -30,7 +33,7 @@ function CardProjects() {
                   <p>{description}</p>
                 </Styles.CardInfos>
                 <Styles.Skills>
-                  {skills.split(",").map((skill) => (
+                  { skills && skills.split(",").map((skill) => (
                     <p>{skill.toUpperCase()}</p>
                   ))}
                 </Styles.Skills>
@@ -42,7 +45,7 @@ function CardProjects() {
                       style={{ width: "25px " }}
                     />
                   </a>
-                  {webPage !== "N/A" && (
+                  {webPage !== "N/A" && ( 
                     <a href={webPage} target="blank">
                       <img
                         src={icons.iconWebPage}
