@@ -44,10 +44,15 @@ const Card = styled.div`
   }
 `
 
+const ImgLoading = styled.img`
+  width: 80px;
+`;
+
 const Styles = {
   Main,
   ContainerCard,
   Card,
+  ImgLoading
 }
 
 export default Styles;
