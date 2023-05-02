@@ -18,7 +18,7 @@ function Navigation() {
   return (
     <Styles.Main>
       {isLoading ? (
-        <Styles.ImgLoading src={icons.loadingIcon} alt="loading icon" />
+        <img style={{ width: '80px' }} src={icons.loadingIcon} alt="loading icon" />
       ) : (
         <Styles.ContainerCard>
           <Styles.Card>
