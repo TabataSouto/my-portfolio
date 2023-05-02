@@ -2,8 +2,6 @@ import React from "react";
 import axios from "axios";
 import { useQuery } from "react-query";
 import icons from "../../images";
-// import icons from "../../images";
-// import data from "../../data/request";
 import Styles from "./Styles";
 
 function CardProjects() {
