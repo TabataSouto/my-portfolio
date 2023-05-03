@@ -38,6 +38,7 @@ function Menu() {
       <section>
         <button
           type="button"
+          onClick={ () => history.push('/soft-skills') }
         >
           <img src={ icons.iconSoftSkills } alt="contact icon" />
         </button>

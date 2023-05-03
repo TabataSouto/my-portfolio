@@ -1,22 +1,26 @@
-import React from "react";
-import axios from "axios";
-import { useQuery } from "react-query";
+import React, { useEffect, useState } from "react";
+import api from '../../data/request';
 import icons from "../../images";
 import Styles from "./Styles";
 
 function CardProjects() {
-  const { data, isLoading } = useQuery("projects", () => {
-    return axios
-      .get("https://portfoliodb-tabatacsouto.b4a.run/projects")
-      .then((response) => response.data);
-  });
+  const [data, setData] = useState();
+  const [isLoading, setIsLoading] = useState(false);
 
-  console.log(isLoading)
-  console.log(data)
+  useEffect(() => {
+    setIsLoading(true);
+    api
+      .get("/projects")
+      .then((response) => {
+        setData(response.data);
+        setIsLoading(false);
+      })
+      .catch((err) => console.log(err));
+  }, []);
 
   return (
     <Styles.Container>
-      {isLoading ? (
+      {isLoading || !data ? (
         <img
           style={{ width: "80px" }}
           src={icons.loadingIcon}

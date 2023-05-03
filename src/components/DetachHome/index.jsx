@@ -1,24 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
-import { useQuery } from "react-query";
+import api from "../../data/request";
 import icons from "../../images";
-import axios from "axios";
 
 import Styles from "./Styles";
 
 function Navigation() {
-  const { data, isLoading } = useQuery("projects", () => {
-    return axios
-      .get("https://portfoliodb-tabatacsouto.b4a.run/contrasts")
-      .then((response) => response.data);
-  });
+  const [data, setData] = useState();
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    setIsLoading(true);
+    api
+      .get("/contrasts")
+      .then((response) => {
+        setData(response.data);
+        setIsLoading(false);
+      })
+      .catch((err) => console.log(err));
+  }, []);
 
   const history = useHistory();
 
   return (
     <Styles.Main>
-      {isLoading ? (
-        <img style={{ width: '80px' }} src={icons.loadingIcon} alt="loading icon" />
+      {isLoading || !data ? (
+        <img
+          style={{ width: "80px" }}
+          src={icons.loadingIcon}
+          alt="loading icon"
+        />
       ) : (
         <Styles.ContainerCard>
           <Styles.Card>

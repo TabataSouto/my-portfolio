@@ -21,6 +21,8 @@ function AboutMe() {
         pathButtonY='/projects'
         buttonB='Contato'
         pathButtonB='/contact'
+        buttonA='Soft Skills'
+        pathButtonA='/soft-skills'
       />
     </Styles.Main>
   )

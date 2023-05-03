@@ -1,25 +1,25 @@
 import React, { useEffect, useState } from "react";
 import api from '../../data/request';
-import Styles from "./Styles";
 import icons from "../../images";
+import Styles from "./Styles";
 
-function Skills() {
+function CardSoftSkills() {
   const [data, setData] = useState();
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     setIsLoading(true);
     api
-      .get("/hardskills")
+      .get("/softskills")
       .then((response) => {
         setData(response.data);
         setIsLoading(false);
       })
       .catch((err) => console.log(err));
   }, []);
-  
+
   return (
-    <Styles.Main>
+    <Styles.Container>
       {isLoading || !data ? (
         <img
           style={{ width: "80px" }}
@@ -27,17 +27,18 @@ function Skills() {
           alt="loading icon"
         />
       ) : (
-        <section>
-          {data.map(({ image, title }) => (
-            <div>
-              <img src={image} alt={title} />
-              <p>{title}</p>
-            </div>
-          ))}
-        </section>
+        data.map(
+          ({ id, image }) => (
+            <Styles.Card key={id}>
+              <div>
+                <img src={image} alt="certificados e reconhecimentos" />
+              </div>
+            </Styles.Card>
+          )
+        )
       )}
-    </Styles.Main>
+    </Styles.Container>
   );
 }
 
-export default Skills;
+export default CardSoftSkills;

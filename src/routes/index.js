@@ -6,6 +6,7 @@ import AboutMe from '../pages/AboutMe';
 import Projects from '../pages/Projects';
 import Contact from '../pages/Contact';
 import HardSkills from '../pages/HardSkills';
+import SoftSkills from '../pages/SoftSkills';
 
 function Routes() {
   return (
@@ -17,6 +18,7 @@ function Routes() {
         <Route path="/projects/" component={ Projects } />
         <Route path="/contact" component={ Contact } />
         <Route path="/hard-skills" component={ HardSkills } />
+        <Route path="/soft-skills" component={ SoftSkills } />
       </Switch>
     </BrowserRouter>
   );
