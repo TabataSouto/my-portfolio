@@ -19,8 +19,8 @@ function SoftSkills() {
         pathButtonX='/home'
         buttonA='Contato'
         pathButtonA='/contact'
-        buttonY='Soft Skills'
-        pathButtonY='/soft-skills'
+        buttonY='Projetos'
+        pathButtonY='/projects'
         buttonB='Hard Skills'
         pathButtonB='/hard-skills'
       />

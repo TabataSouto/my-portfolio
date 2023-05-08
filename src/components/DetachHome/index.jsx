@@ -40,7 +40,7 @@ function Navigation() {
                 rel="noopener noreferrer"
                 href="https://stock-investing-app-xp.vercel.app/"
               >
-                <img src={data[0].image} alt="imagem do projeto Tryunfo" />
+                <img src={data[0].image} alt="imagem do projeto em detaque" />
               </a>
             </div>
           </Styles.Card>
@@ -50,7 +50,7 @@ function Navigation() {
               <img
                 src={data[1].image}
                 alt="imagem sobre hard skills"
-                onClick={() => history.push("/soft-skills")}
+                onClick={() => history.push("/hard-skills")}
               />
             </div>
           </Styles.Card>
@@ -59,8 +59,8 @@ function Navigation() {
             <div>
               <img
                 src={data[2].image}
-                alt="imagem dos projetos em destaque"
-                onClick={() => history.push("/hard-skills")}
+                alt="imagem sobre soft skills"
+                onClick={() => history.push("/soft-skills")}
               />
             </div>
           </Styles.Card>

@@ -32,30 +32,16 @@ function Description() {
         </Styles.Title>
         <Styles.AboutMe>
           <p>
-            Sejam todos muito bem-vindos(as) ao meu portfólio pessoal. Neste
-            espaço, falo sobre meu momento, desejos, expertise e apresento o que
-            foi desenvolvido até este momento.
+          Sejam todos muito bem-vindos(as) ao meu portfólio pessoal. Neste espaço, falo sobre meu momento, carreira, expertise e mostro um pouco do que foi desenvolvido até este momento.
           </p>
           <p>
-            Sou a Tabata Caroline Souto, tenho 31 anos, formada em Sistema de
-            Informações pela Anhanguera e Desenvolvimento Web FullStack pela
-            Trybe - Turma XP.
+          Sou a Tabata Caroline Souto, tenho 31 anos, formada em Sistemas de Informações e Desenvolvimento Web FullStack pela Trybe – Turma especial XP.
+
           </p>
           <p>
-            Ao longo da minha carreira, atuei em Departamento Pessoal/RH e
-            operando base de dados para operações gerenciais na Bradesco
-            Seguros. Minha última atuação foi na área de desenvolvimento para o
-            setor de Cadastro PJ na XP Inc, utilizando tecnologias como Angular,
-            Jasmine, Azure, etc. Gosto de ler, ver animes e, principalmente,
-            jogar. Tenho especial apreço por estilização e experiência de
-            usuário, mesmo não sendo requisito dentre os projetos realizados até
-            este momento pela Trybe, estou orgulhosa do meu desempenho e
-            evolução para demostrar minha paixão. Meu maior desejo é ser
-            referência nacional na área que escolhi e impactar a vida de muitas
-            pessoas. Espero que goste e, se tiver qualquer dúvida, critica,
-            elogio, sugestão, ou só quiser conversar, por gentileza, não hesite
-            em me contatar
+          Ao longo da minha trajetória, atuei em Departamento Pessoal/RH e operei base de dados para operações e planos gerenciais na Bradesco Seguros (SQL). Minha última atuação foi na área de desenvolvimento do setor de Cadastro PJ na XP Inc, utilizando tecnologias como Angular, Jasmine, Azure etc. Gosto de “codar”, ler, ver animes e, principalmente, jogar. Tenho uma visão voltada á estilização e experiência de usuário, que combina muito bem com o Front- end.
           </p>
+          <p>Sigo muito focada em conseguir espaço, preciso continuar minha evolução enquanto engenheira de software e pessoa; meu maior desejo é ser referência nacional na área que escolhi e impactar a vida de muitas pessoas. Espero que goste e, se tiver qualquer dúvida, critica, elogio, sugestão, ou só quiser conversar, por gentileza, não hesite em me contatar.</p>
         </Styles.AboutMe>
       </Styles.Description>
     </Styles.Container>
